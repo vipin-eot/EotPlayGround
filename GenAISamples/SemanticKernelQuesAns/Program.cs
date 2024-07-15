@@ -17,25 +17,34 @@ var kernel = builder.Build();
 //define prompt execution settings
 var settings = new OpenAIPromptExecutionSettings
 {
-    MaxTokens = 200,  // Response words
+    //MaxTokens = 200,  // Response words
     Temperature = 1
 };
 var kernelArguments = new KernelArguments(settings);
 
 //var prompt = "Write a short joke about kittens. Use Emojis";
 
-var prompt = "Give me a list of breakfast foods with eggs and cheese.";
 
-Console.WriteLine($"Ques: {prompt}");
-
-var response = kernel.InvokePromptStreamingAsync(prompt, kernelArguments);
-
-Console.WriteLine($"Answer...");
-
-await foreach (var message in response)
+while(true)
 {
-    Console.Write(message.ToString());
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.Write($"Ques: ");
+    var prompt = Console.ReadLine();
+
+    var response = kernel.InvokePromptStreamingAsync(prompt, kernelArguments);
+
+    Console.ForegroundColor = ConsoleColor.Green;
+
+    Console.Write($"Answer:");
+
+    await foreach (var message in response)
+    {
+        Console.Write(message.ToString());
+    }
+
+    Console.WriteLine();
 }
+
 
 // if Wants complete answer in one single chunks
 //var result = await kernel.InvokePromptAsync("Give me a list of breakfast foods with eggs and cheese. Only names");

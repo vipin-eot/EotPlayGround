@@ -4,7 +4,8 @@
 
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
- 
+using Microsoft.VisualBasic;
+
 
 // Create kernel with a custom http address
 var builder = Kernel.CreateBuilder();
@@ -25,6 +26,7 @@ history.AddSystemMessage("You are a useful chatbot. If you don't know an answer,
 
 while (true)
 {
+    Console.ForegroundColor = ConsoleColor.Yellow;
     Console.Write("Q:");
     var userQ = Console.ReadLine();
     if (string.IsNullOrEmpty(userQ))
@@ -33,7 +35,15 @@ while (true)
     }
     history.AddUserMessage(userQ);
 
-    var result = await chat.GetChatMessageContentsAsync(history);
-    Console.WriteLine(result[^1].Content);
-    history.Add(result[^1]);
+    Console.ForegroundColor = ConsoleColor.Green;
+    await foreach (var response in chat.GetStreamingChatMessageContentsAsync(history))
+    {
+        Console.Write(response);
+        await Task.Delay(100);
+    }
+
+    Console.WriteLine();
+
+   // Console.WriteLine(response[^1].Content);
+   // history.Add(response[^1]);
 }

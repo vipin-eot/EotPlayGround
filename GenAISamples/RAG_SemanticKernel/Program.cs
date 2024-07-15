@@ -44,7 +44,7 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 
 var question = "Who is Matt Oberdorfer?";
 Console.WriteLine($"Question: {question}");
- 
+
 Console.WriteLine("");
 
 // Create a chat completion service
@@ -58,7 +58,7 @@ builder.AddLocalTextEmbeddingGeneration();
 Kernel kernel = builder.Build();
 
 Console.ForegroundColor = ConsoleColor.White;
-Console.WriteLine($"Phi-3 response (no memory):");
+Console.WriteLine($"Phi-3 response (no memory/RAG):");
 
 Console.ForegroundColor = ConsoleColor.Green;
 var response = kernel.InvokePromptStreamingAsync(question);
@@ -80,9 +80,9 @@ var memory = new SemanticTextMemory(new VolatileMemoryStore(), embeddingGenerato
 // add facts to the collection
 const string MemoryCollectionName = "fanFacts";
 
-await memory.SaveInformationAsync(MemoryCollectionName, id: "info1", text: "Matt Oberdorfer is the founder and CEO of EOT (Embassy of Things), an investor, speaker, and author of five books.");
+await memory.SaveInformationAsync(MemoryCollectionName, id: "info1", text: "Matt Oberdorfer is the founder and CEO of 'EOT (Embassy of Things)', an investor, speaker, and author of five books.");
 await memory.SaveInformationAsync(MemoryCollectionName, id: "info2", text: "Matt's forthcoming book, \"The Trailblazer’s Guide to Industrial IoT\" for energy and manufacturing digital transformation leaders is a comprehensive guide offers expert insights and practical advice on upgrading the OT/IT infrastructure of industrial companies to harness the power of modern AI, ML and analytics for #digitaltwins, #iiot, #industrialdatalake, and #datahistorian.");
-await memory.SaveInformationAsync(MemoryCollectionName, id: "info3", text: "In 2019, he launched EOT, a leading software company with the mission of enabling industrial enterprises to modernize and build their own operational cloud historian, industrial digital twin, or industrial data lake.");
+await memory.SaveInformationAsync(MemoryCollectionName, id: "info3", text: "In 2019, he launched 'EOT(Embassy of Things)' , a leading software company with the mission of enabling industrial enterprises to modernize and build their own operational cloud historian, industrial digital twin, or industrial data lake.");
 
 TextMemoryPlugin memoryPlugin = new(memory);
 
@@ -94,52 +94,41 @@ OpenAIPromptExecutionSettings settings = new()
     ToolCallBehavior = ToolCallBehavior.AutoInvokeKernelFunctions,
 };
 
-
-var prompt = @"
-    Question: {{$input}}
-    Answer the question using the memory content: {{Recall}}";
-
-var arguments = new KernelArguments(settings)
-{
-    { "input", question },
-    { "collection", MemoryCollectionName }
-};
-
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine($"Phi-3 response (using semantic memory).");
 
 Console.ForegroundColor = ConsoleColor.Green;
 
-response = kernel.InvokePromptStreamingAsync(prompt, arguments);
-await foreach (var result in response)
-{
-    Console.Write(result);
-}
+await AnswerUsingRAGMemory(kernel, MemoryCollectionName, settings, "Who is Matt Oberdorfer?");
 
-Console.WriteLine($"");
-
-Console.ForegroundColor = ConsoleColor.Yellow;
-var quest2 = "When was EOT (Embassy of Things) launched and by whom?";
-Console.WriteLine($"\n\nQues: {quest2}");
-
-var prompt2 = @"
-    Question: {{$input}}
-    Answer the question using the memory content: {{Recall}}";
-
-var answer2 = kernel.InvokePromptStreamingAsync(prompt2, new KernelArguments(settings)
-{
-    { "input", quest2 },
-    { "collection", MemoryCollectionName }
-});
-
-Console.ForegroundColor = ConsoleColor.Green;
-
-await foreach (var result in answer2)
-{
-    Console.Write(result);
-}
+await AnswerUsingRAGMemory(kernel, MemoryCollectionName, settings, "When was EOT (Embassy of Things) launched and by whom?");
 
 Console.WriteLine($"");
 Console.WriteLine($"");
 
 Console.ForegroundColor = ConsoleColor.White;
+
+static async Task AnswerUsingRAGMemory(Kernel kernel, string MemoryCollectionName, OpenAIPromptExecutionSettings settings, string question)
+{
+    Console.WriteLine($"");
+
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine($"\n\nQues: {question}");
+
+    var prompt = @"
+    Question: {{$input}}
+    Answer the question using the memory content: {{Recall}}";
+
+    var answer = kernel.InvokePromptStreamingAsync(prompt, new KernelArguments(settings)
+                                                                        {
+                                                                            { "input", question },
+                                                                            { "collection", MemoryCollectionName }
+                                                                        });
+
+    Console.ForegroundColor = ConsoleColor.Green;
+
+    await foreach (var result in answer)
+    {
+        Console.Write(result);
+    }
+}
