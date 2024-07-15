@@ -40,9 +40,10 @@ using Microsoft.SemanticKernel.Embeddings;
 using Microsoft.SemanticKernel.Memory;
 using Microsoft.SemanticKernel.Plugins.Memory;
 
+Console.ForegroundColor = ConsoleColor.Yellow;
 
 var question = "Who is Matt Oberdorfer?";
-Console.WriteLine($"This program will answer the following question: {question}");
+Console.WriteLine($"Question: {question}");
  
 Console.WriteLine("");
 
@@ -56,14 +57,17 @@ builder.AddOpenAIChatCompletion(
 builder.AddLocalTextEmbeddingGeneration();
 Kernel kernel = builder.Build();
 
-Console.WriteLine($"Phi-3 response (no memory).");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine($"Phi-3 response (no memory):");
 
+Console.ForegroundColor = ConsoleColor.Green;
 var response = kernel.InvokePromptStreamingAsync(question);
 await foreach (var result in response)
 {
     Console.Write(result);
 }
 
+Console.ForegroundColor = ConsoleColor.White;
 // separator
 Console.WriteLine("");
 Console.WriteLine("====================================================");
@@ -101,7 +105,10 @@ var arguments = new KernelArguments(settings)
     { "collection", MemoryCollectionName }
 };
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine($"Phi-3 response (using semantic memory).");
+
+Console.ForegroundColor = ConsoleColor.Green;
 
 response = kernel.InvokePromptStreamingAsync(prompt, arguments);
 await foreach (var result in response)
@@ -111,13 +118,28 @@ await foreach (var result in response)
 
 Console.WriteLine($"");
 
+Console.ForegroundColor = ConsoleColor.Yellow;
 var quest2 = "When was EOT (Embassy of Things) launched and by whom?";
 Console.WriteLine($"\n\nQues: {quest2}");
 
-var answer2 = kernel.InvokePromptStreamingAsync(quest2, arguments);
-Console.WriteLine($"\nAnswer...");
+var prompt2 = @"
+    Question: {{$input}}
+    Answer the question using the memory content: {{Recall}}";
+
+var answer2 = kernel.InvokePromptStreamingAsync(prompt2, new KernelArguments(settings)
+{
+    { "input", quest2 },
+    { "collection", MemoryCollectionName }
+});
+
+Console.ForegroundColor = ConsoleColor.Green;
 
 await foreach (var result in answer2)
 {
     Console.Write(result);
 }
+
+Console.WriteLine($"");
+Console.WriteLine($"");
+
+Console.ForegroundColor = ConsoleColor.White;
