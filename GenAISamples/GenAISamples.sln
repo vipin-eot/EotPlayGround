@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phi-3Hugging Face", "Phi-3H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticKernelQuesAns", "SemanticKernelQuesAns\SemanticKernelQuesAns.csproj", "{8E0A5D1C-EEB2-424C-A2A2-0A57BE5AACE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChatSemanticKernel", "ConsoleChatSemanticKernel\ConsoleChatSemanticKernel.csproj", "{573A8950-3DE3-4713-92E7-103546F9603D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleChatSemanticKernel", "ConsoleChatSemanticKernel\ConsoleChatSemanticKernel.csproj", "{573A8950-3DE3-4713-92E7-103546F9603D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAG_SemanticKernel", "RAG_SemanticKernel\RAG_SemanticKernel.csproj", "{56CF9962-A6C0-477F-AB31-9273BC4652E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAG_SemanticKernel", "RAG_SemanticKernel\RAG_SemanticKernel.csproj", "{56CF9962-A6C0-477F-AB31-9273BC4652E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MLExamples", "MLExamples", "{10073C1E-EA29-4ED6-9F3A-42430C27AD59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLModelEx", "MLModelEx\MLModelEx.csproj", "{46CF371D-5639-4A6C-8C32-C3B41A9D1A21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{56CF9962-A6C0-477F-AB31-9273BC4652E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56CF9962-A6C0-477F-AB31-9273BC4652E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56CF9962-A6C0-477F-AB31-9273BC4652E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CF371D-5639-4A6C-8C32-C3B41A9D1A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CF371D-5639-4A6C-8C32-C3B41A9D1A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CF371D-5639-4A6C-8C32-C3B41A9D1A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CF371D-5639-4A6C-8C32-C3B41A9D1A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46CF371D-5639-4A6C-8C32-C3B41A9D1A21} = {10073C1E-EA29-4ED6-9F3A-42430C27AD59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {639E0941-42D1-4251-BD4C-6E503DED8A74}
