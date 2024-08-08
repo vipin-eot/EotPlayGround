@@ -1,0 +1,60 @@
+Q:What is a Timer?
+A: A Timer is a data pipeline, which has the parameters of the source and destination where TwinTalk will try to retrieve the data from the source and deliver to destination.
+ 
+Q: TwinTalk Operational Dashboard?
+A: The TwinTalk Operational Dashboard shows the total number of Timers created in the TwinTalk UI and how many timers are running per min/values., and from source to destination where the data is delivering in Graphical representation.
+ 
+Q: What is a Group in TwinTalk?
+A: A Group is a collection of Tags/Attributes with respect to PI Attributes. In the Timers Configuration we have a Section called ‘Query’ where we have to input the PI/AF related queries which TwinTalk groups all the list of Tags/Attributes into a Group.
+ 
+Q: What is the functionality of the Systems Icon in the TwinTalk Operational Dashboard?
+A: Systems Icon functionality holds all the backend related configurations with in the TwinTalk. Where you can ‘Shutdown’ the TwinTalk under this Systems configurations. Example: TwinTalk Server Info i.e., TwinTalk version, License, Assets configurations etc.,
+ 
+Systems and Settings Dashboard
+ 
+Q: How to Shutdown the TwinTalk Application?
+A: To Shutdown the TwinTalk we have two ways:
+	1, Navigate to TwinTalk Operational Dashboard >> Systems >> Shutdown
+ 
+	2, From the command line enter “Alt + Shit + T” then in the command line you will seeing the following message “You enabled Console Keyboard input. Your keyboard is hot” 
+ 
+then hit “q” letter in your keyboard a prompt will we appears to quit the TwinTalk application, Hit on Yes and press any key from your keyboard.
+ 
+Q: What is ENV Vars in the Systems and Settings?
+A: ENV Vars are the pre-defined variables, which TwinTalk can look into it while you create Timers and call the ENV Vars parameters. Example if we create a Key Value pair in the ENV Vars, inside the Timer configuration we can call the Key value as follows ‘$key’.
+Q: How to Check the TwinTalk version?
+A: The TwinTalk Server and TwinTalk UI version can be viewed as follows, Open the TwinTalk UI. In the TwinTalk UI Operational Dashboard select systems, under this systems and settings tab at the right most corner you will be able to Identify the TwinTalk UI version ~7.X, 
+ 
+and under the same tab you will be able to see a table stating Selected: true, Endpoint: ..etc., double click on the table and hit on the “Connection Test” option where you will be able to identify TwinTalk server option as follows “[Twin Talk Version, 6.X PI/OPCUA/MQTT/SQL]”.
+ 
+Q: How to check TwinTalk License is upto date?
+A: In the TwinTalk UI Operational Dashboard select systems where you will be able to see a table stating Selected: true, Endpoint: ..etc., double click on the table, Look for TT License as follows.,
+~Large License | MM/DD/YYYY HH:MM:SS AM | 1000 | 12AB34CD5.
+ 
+Q: How to Create a TwinTalk Timer?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window you will able to create a Timer by click on New Icon
+ 
+Input all the required parameters and click on “Save”.
+ 
+Q: How can I import an existing Timer configuration in to TwinTalk?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window you will able to import an existing timer which is saved in the CSV format by clicking on Import option.
+ 
+ 
+Q: How can I export an existing Timer configuration from the TwinTalk?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window you will able to export an existing timer which should be saved in the CSV format by clicking on export option.
+ 
+Q: How to Start TwinTalk Timer?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window select the Timers and click on Re-start option to start Timer.
+ 
+Q: How to Stop TwinTalk Timer?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window select the Timers and click on Stop option to stop Timer.
+ 
+Q: How to Delete TwinTalk Timer?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window select the Timers and click on Delete option to delete Timer.
+ 
+Q: How to Copy an existing Timer and create a new Timer from it?
+A: In the TwinTalk UI Operational Dashboard select Timers icon, Inside the Timers window select the Timer which you need to copy ( make reference timer) and click on Copy option to copy Timer and make sure the in Timer configurations Group Name should be unique.
+ 
+Q: How to Create a Backfill operations using TwinTalk UI?
+A: Create a Timer with Method “GetRecordedVals”, Now Inside the Timers window select the Timer which you need to do a backfill operations and select Backfill Icon, where a new small window pops up, you have to input the starting and end date of the backfill operation and click on “Request Data”.
+ 

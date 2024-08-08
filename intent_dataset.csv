@@ -1,0 +1,171 @@
+question,label,response,api_endpoint
+"Which TagNames are present in the TagGroups of TwinTalk?",GetGroupNamesReq1,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you show me the available TagGroups in TwinTalk?",GetGroupNamesReq2,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I need a list of TagGroups available in TwinTalk. Can you help?",GetGroupNamesReq3,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"What are the available TagGroups in TwinTalk?",GetGroupNamesReq4,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Please provide me with the list of TagGroups in TwinTalk.",GetGroupNamesReq5,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Could you tell me the TagGroups that are available in TwinTalk?",GetGroupNamesReq6,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"List all the TagGroups that are present in TwinTalk.",GetGroupNamesReq7,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"What TagGroups are currently available in TwinTalk?",GetGroupNamesReq8,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Show me the TagGroups that TwinTalk has.",GetGroupNamesReq9,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I would like to see the list of TagGroups from TwinTalk.",GetGroupNamesReq10,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you give me the list of available TagGroups in TwinTalk?",GetGroupNamesReq11,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you provide me with a complete list of TagGroups in TwinTalk?",GetGroupNamesReq12,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I’m looking for the TagGroups available in TwinTalk. Can you show me?",GetGroupNamesReq13,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I need to find out what TagGroups are available in TwinTalk. Can you help?",GetGroupNamesReq14,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Please list all the TagGroups that are accessible in TwinTalk.",GetGroupNamesReq15,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I’d like to know the TagGroups available in TwinTalk. Could you provide that information?",GetGroupNamesReq16,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Which TagGroups are currently available in TwinTalk?",GetGroupNamesReq17,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you tell me what TagGroups are available for use in TwinTalk?",GetGroupNamesReq18,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Give me the names of the TagGroups available in TwinTalk, please.",GetGroupNamesReq19,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you help me with a list of TagGroups from TwinTalk?",GetGroupNamesReq20,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"I’m interested in the available TagGroups in TwinTalk. What are they?",GetGroupNamesReq21,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Could you share the available TagGroups in TwinTalk with me?",GetGroupNamesReq22,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you provide details on the TagGroups available in TwinTalk?",GetGroupNamesReq23,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"What TagGroups are listed in TwinTalk?",GetGroupNamesReq24,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Tell me about the TagGroups you have in TwinTalk.",GetGroupNamesReq25,"{'msgMethod': 'GetGroupNamesReq'}",http://54.164.152.95:8080
+"Can you provide the group members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq1,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq2,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>''}",http://54.164.152.95:8080
+"Please list the group members for the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq3,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>''}",http://54.164.152.95:8080
+"Could you show me the members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq4,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>''}",http://54.164.152.95:8080
+"I need to know the members of the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq5,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>''}",http://54.164.152.95:8080
+"What is the list of group members in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq6,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Tell me the group members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq7,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Give me the list of members in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq8,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Who are the members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq10,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Show me the group members associated with the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq11,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"List all members in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq12,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Provide the list of members for the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq13,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I would like to see the group members of TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq14,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you display the members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq15,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What is the roster of members in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq16,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Identify the members of the TagGroup '<TAGGROUPNAME>' for me.",GetGroupMembersReq17,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you enumerate the group members of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq18,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the names of members in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq19,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Give me the names of the members in the TagGroup '<TAGGROUPNAME>'.",GetGroupNamesReq20,"{'msgMethod': 'GetGroupNamesReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"List the members associated with TagGroup '<TAGGROUPNAME>' for me.",GetGroupNamesReq21,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you provide the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq22,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq23,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Please list the TagNames for the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq24,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Could you show me the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq25,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What is the list of TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq26,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Tell me the TagNames of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq27,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Give me the list of TagNames in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq28,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Who are the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq29,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Show me the TagNames associated with the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq30,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"List all TagNames in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq31,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Provide the list of TagNames for the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq32,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I would like to see the TagNames in TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq33,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you display the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq34,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What is the roster of TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq35,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Identify the TagNames of the TagGroup '<TAGGROUPNAME>' for me.",GetGroupMembersReq36,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you enumerate the TagNames of the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq37,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the names of the TagNames in the TagGroup '<TAGGROUPNAME>'?",GetGroupMembersReq38,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Give me the names of the TagNames in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq39,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"List the TagNames associated with TagGroup '<TAGGROUPNAME>' for me.",GetGroupMembersReq40,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I need to know the TagNames in the TagGroup '<TAGGROUPNAME>'.",GetGroupMembersReq41,"{'msgMethod': 'GetGroupMembersReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the currently running timers in TwinTalk?",ListTimer1,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Can you tell me what timers are currently running in TwinTalk?",ListTimer2,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"I need to know which timers are active in TwinTalk right now. Can you provide that information?",ListTimer3,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What are the timers that are running at the moment in TwinTalk?",ListTimer4,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Could you list the timers that are currently active in TwinTalk?",ListTimer5,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Please show me the timers that are running in TwinTalk right now.",ListTimer6,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"I’d like to find out the active timers in TwinTalk. Can you help with that?",ListTimer7,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What timers are presently running in TwinTalk?",ListTimer8,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Can you provide a list of the running timers in TwinTalk?",ListTimer9,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Tell me about the timers that are active in TwinTalk at this time.",ListTimer10,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What are the current running timers in TwinTalk?",ListTimer11,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"I want to know which timers are currently operational in TwinTalk.",ListTimer12,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Can you give me details on the running timers in TwinTalk?",ListTimer13,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What timers are currently in operation in TwinTalk?",ListTimer14,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Please provide information on the active timers in TwinTalk.",ListTimer15,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"I’m interested in knowing the running timers in TwinTalk. Can you provide that list?",ListTimer16,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What are the currently operational timers in TwinTalk?",ListTimer17,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Can you list the timers that are running right now in TwinTalk?",ListTimer18,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What are the currently active timers in TwinTalk?",ListTimer19,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Show me the timers that are currently active in TwinTalk.",ListTimer20,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"Can you provide the names of the timers that are running in TwinTalk at this moment?",ListTimer21,"{'msgMethod': 'ListTimer'}",http://54.164.152.95:8080
+"What are the details of timers within the TagGroups in TwinTalk?",ListTimerDetailsReq1,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': 'EOT_DEMO_TankVapor'}",http://54.164.152.95:8080
+"Can you provide the details of timers in the TagGroup 'TestGroup1' in TwinTalk?",ListTimerDetailsReq2,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I need information about the timers within the TagGroup '<TAGGROUPNAME>' in TwinTalk. Can you help?",ListTimerDetailsReq3,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the details of timers for the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq4,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Please show me the timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq5,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you give me the details of the timers in the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq6,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I’d like to see the timer details for the TagGroup named '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq7,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the details of timers within the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsRe8,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Provide the timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk, please.",ListTimerDetailsReq9,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you list the details of the timers in the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq10,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I need the details of timers from the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq11,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I need the details of timers from the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq12,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Show me the details of timers EOT AI, what are the timer details for the TagGroup 'TrialGroup' in TwinTalk?ers within the TagGroup 'MainGroup' in TwinTalk.",ListTimerDetailsReq13,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you give me the timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq14,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Please provide the timer information for the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq15,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the current timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq16,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I want the details of timers in the TagGroup '<TAGGROUPNAME>' within TwinTalk.",ListTimerDetailsReq17,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you provide details for the timers in the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq18,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"what are the timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq19,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"give me the details of the timers for the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq20,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"I need the timer details for the TagGroup '<TAGGROUPNAME>' in TwinTalk.",ListTimerDetailsReq21,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"what are the timer details for the TagGroup named '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq22,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"can you fetch the details of timers for the TagGroup '<TAGGROUPNAME>' in TwinTalk?",ListTimerDetailsReq23,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What are the timer details for the TagGroup '<TAGGROUPNAME>'?",ListTimerDetailsReq24,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Show me the timers in the TagGroup '<TAGGROUPNAME>'.",ListTimerDetailsReq25,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Give me the details of timers for '<TAGGROUPNAME>'.",ListTimerDetailsReq26,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"What timers are in the TagGroup '<TAGGROUPNAME>'?",ListTimerDetailsReq27,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"tell me about the timers for '<TAGGROUPNAME>'.",ListTimerDetailsReq28,"{'msgMethod': 'ListTimerDetailsReq', 'tagGroupName': '<TAGGROUPNAME>'}",http://54.164.152.95:8080
+"Can you provide the historical values for the '<TAGGROUPNAME>' TagGroup between January and March 2019?",GetRecordedVals1,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '2019-01-03T13:56:29.7900085Z', 'toDateTime' :  '2019-03-04T01:56:29.7900085Z'}",http://54.164.152.95:8080
+"Can you provide the historical values for the TagGroup '<TAGGROUPNAME>' between <FROMDATE> and <TODATE>?",GetRecordedVals2,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"What are the historical values for the '<TAGGROUPNAME>' TagGroup from <FROMDATE> to <TODATE>?",GetRecordedVals3,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Show me the data for TagGroup '<TAGGROUPNAME>' from <FROMDATE> to <TODATE>.",GetRecordedVals4,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Give me the historical data for '<TAGGROUPNAME>' TagGroup from <FROMDATE> to <TODATE>.",GetRecordedVals5,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"I need the historical values for TagGroup '<TAGGROUPNAME>' between <FROMDATE> and <TODATE>.",GetRecordedVals6,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Can you fetch the historical records for the TagGroup '<TAGGROUPNAME>' from <FROMDATE> to <TODATE>?",GetRecordedVals7,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Tell me the historical data for '<TAGGROUPNAME>' TagGroup within the period of <FROMDATE> to <TODATE>.",GetRecordedVals8,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"What are the recorded values for TagGroup '<TAGGROUPNAME>' between <FROMDATE> and <TODATE>?",GetRecordedVals9,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Can you provide recorded values for the TagGroup <TAGGROUPNAME> from <FROMDATE> to <TODATE>?",GetRecordedVals10,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"What are the recorded values for <TAGGROUPNAME> between <FROMDATE> and <TODATE>?",GetRecordedVals11,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Show me the recorded data for the TagGroup <TAGGROUPNAME> for the period from <FROMDATE> to <TODATE>.",GetRecordedVals12,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"I need the recorded values for <TAGGROUPNAME> between <FROMDATE> and <TODATE>.",GetRecordedVals13,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"Fetch recorded values for TagGroup <TAGGROUPNAME> from <FROMDATE> to <TODATE>.",GetRecordedVals14,"{'msgMethod': 'GetRecordedVals', 'tagGroupName': '<TAGGROUPNAME>', 'fromDateTime' : '<FROMDATE>', 'toDateTime' :  '<TODATE>'}",http://54.164.152.95:8080
+"What is TwinTalk?",TwinTalkOverview,"TwinTalk is a Data Integration Platform for industrial IoT that connects operational systems with cloud solutions, providing secure, scalable access to operational data. It helps in removing barriers associated with complex networks and IT infrastructures, enabling real-time insights and operational intelligence.",N/A
+"How does TwinTalk facilitate data integration between operational systems and cloud solutions?",TwinTalkDataIntegration,"TwinTalk facilitates data integration by providing a seamless connection between operational systems and cloud solutions, allowing for secure and efficient data transfer and access.",N/A
+"What security features does TwinTalk offer for industrial data transmission?",TwinTalkSecurityFeatures,"TwinTalk offers robust security features such as encryption and secure access controls to protect industrial data during transmission and ensure compliance with industry standards.",N/A
+"Can you explain how TwinTalk supports real-time analytics for operational data?",TwinTalkRealTimeAnalytics,"TwinTalk supports real-time analytics by transmitting sensor data to cloud platforms, where it can be analyzed immediately to provide actionable insights and support operational decision-making.",N/A
+"What are the key benefits of using TwinTalk for digital transformation in industrial settings?",TwinTalkBenefitsDigitalTransformation,"The key benefits of using TwinTalk for digital transformation include improved data accessibility, enhanced operational efficiency, and the ability to leverage advanced analytics and AI tools for better decision-making and innovation.",N/A
+"How efficient is TwinTalk in transmitting data from operational assets to cloud systems?",TwinTalkDataTransmissionEfficiency,"TwinTalk is highly efficient in transmitting data from operational assets to cloud systems, ensuring minimal latency and reliable delivery of information for real-time monitoring and analysis.",N/A
+"In what ways does TwinTalk contribute to operational intelligence?",TwinTalkOperationalIntelligence,"TwinTalk contributes to operational intelligence by enabling the collection and integration of operational data, which can then be analyzed to gain insights, optimize performance, and improve decision-making.",N/A
+"How does TwinTalk compare to traditional data integration methods in industrial environments?",TwinTalkVsTraditionalIntegration,"TwinTalk offers a more streamlined and secure approach compared to traditional data integration methods, reducing complexity and providing real-time access to operational data with enhanced security features.",N/A
+"how does TwinTalk support the integration of AI and machine learning in industrial applications?",TwinTalkAIandMLIntegration,"TwinTalk supports AI and machine learning integration by enabling seamless data transfer to cloud platforms, where it can be used to train models, perform predictive analytics, and enhance operational insights.",N/A
+"what methods does TwinTalk use to provide access to operational data?",TwinTalkOperationalDataAccess,"TwinTalk provides access to operational data through secure and scalable channels that connect directly to cloud platforms, allowing for efficient data retrieval and analysis.",N/A
+"how does TwinTalk enhance productivity in industrial operations?",TwinTalkEnhancingProductivity,"TwinTalk enhances productivity by enabling real-time data access and analysis, which helps organizations make informed decisions, reduce downtime, and improve overall efficiency in their operations.",N/A
+"what is EOT's collaboration with AWS focused on?",EOTAWSCollaboration,"They are collaborating to infuse AI capabilities into industrial assets for operational accuracy and efficiency.",N/A
+"who uses EOT software for their upstream assets?",EOTSoftwareUsers,"Hilcorp, a large exploration and production company in the United States.",N/A
+"what does EOT provide through its Twin Fusion Platform?",EOTTwinFusion,"Comprehensive services for building enterprise-scale industrial applications.",N/A
+"what is Twin Sight™?",TwinSight,"Twin Sight™ supports visualization and reporting of large-scale analytics and machine learning models.",N/A
+"what does EOT Twin Central™ facilitate?",EOTTwinCentral,"It facilitates the creation of an asset-centric, single source of truth semantic data model.",N/A
+"how does EOT's AI Edge Controller work?",AIEdgeController,"It delivers trained ML models from the cloud to the operational edge for anomaly detection and self-optimization.",N/A
+"Hello!",Hi1,"Hello there! I'm EOT TwinTalk AI. What can I do for you today?",N/A
+"Hello!",Hi2,"Hi! EOT TwinTalk AI at your service. Ask me anything about TwinTalk.",N/A
+"Hello!",Hi3,"Hey! I am the EOT TwinTalk AI. What would you like to know about TwinTalk?",N/A
+"Hello!",Hi4,"Hi there! EOT TwinTalk AI ready to assist with your TwinTalk inquiries.",N/A
+"Hello!",Hi5,"Howdy! Feel free to ask me about TwinTalk.",N/A
+"Hey!",Hey1,"Hello there! I'm EOT TwinTalk AI. How can I assist you today?",N/A
+"Hey!",Hey2,"Hi! I'm EOT TwinTalk AI, here to help you with any TwinTalk queries.",N/A
+"Hey!",Hey3,"Hey! Need any information about TwinTalk? I'm here to help.",N/A
+"Hey!",Hey4,"Hi there! EOT TwinTalk AI at your service. What can I do for you?",N/A
+"Hey!",Hey5,"Howdy! I'm EOT TwinTalk AI. What would you like to know?",N/A
+"Hello!",Hello1,"Hello there! I'm EOT TwinTalk AI. What can I do for you today?",N/A
+"Hello!",Hello2,"Hi! EOT TwinTalk AI at your service. Ask me anything about TwinTalk.",N/A
+"Hello!",Hello3,"Hey! I am the EOT TwinTalk AI. What would you like to know about TwinTalk?",N/A
+"Hello!",Hello4,"Hi there! EOT TwinTalk AI ready to assist with your TwinTalk inquiries.",N/A
+"Hello!",Hello5,"Howdy! Feel free to ask me about TwinTalk.",N/A
+"Good morning!",GoodMorning1,"Good morning! I'm EOT TwinTalk AI. How can I assist you today?",N/A
+"Good morning!",GoodMorning2,"Hi! EOT TwinTalk AI here. What can I do for you this morning?",N/A
+"Good morning!",GoodMorning3,"Hello! I am EOT TwinTalk AI. Need any help this morning?",N/A
+"Good morning!",GoodMorning4,"Hey there! EOT TwinTalk AI at your service. How can I help you today?",N/A
+"Good morning!",GoodMorning5,"Howdy! What would you like to know this morning?",N/A
+"Good afternoon!",GoodAfternoon1,"Good afternoon! I'm EOT TwinTalk AI. How can I assist you today?",N/A
+"Good afternoon!",GoodAfternoon2,"Hi! EOT TwinTalk AI here. What can I do for you this afternoon?",N/A
+"Good afternoon!",GoodAfternoon3,"Hello! I am EOT TwinTalk AI. Need any help this afternoon?",N/A
+"Good afternoon!",GoodAfternoon4,"Hey there! EOT TwinTalk AI at your service. How can I help you today?",N/A
+"Good afternoon!",GoodAfternoon5,"Howdy! What would you like to know this afternoon?",N/A

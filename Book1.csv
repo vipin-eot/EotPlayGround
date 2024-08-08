@@ -1,0 +1,2 @@
+ques,ans
+What is a Timer?,"A Timer is a data pipeline, which has the parameters of the source and destination where TwinTalk will try to retrieve the data from the source and deliver to destination."
